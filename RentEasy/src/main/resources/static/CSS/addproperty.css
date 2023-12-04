@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#form{
+   /* background:linear-gradient(to top left,rgba(248, 11, 169, 0.9),rgba(224, 44, 224, 0.9),rgba(2, 79, 245, 0.9));*/
+   background-color: lightgoldenrodyellow;
+}
+#form #addtitle{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: linear-gradient(to top right,rgba(68, 5, 5),rgba(36, 36, 37));
+    margin: 20px 0px;
+    text-decoration-line: underline;
+}
+#form{
+    margin-top: 50px;
+    margin-left:35% ;
+    margin-right:32%;
+    border:none;
+    border-radius: 10px;
+    color:black;
+    /* background:linear-gradient(to top left,rgba(3, 247, 234, 0.65),rgba(26, 124, 236, 0.4),rgba(5, 248, 228, 0.65)); */
+    background-color: #ffcb69;
+    padding:10px 0px 0px 30px;
+}
+#form #outer{
+    padding: 10px;
+    border: 2px double black;
+    width: 350px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+#form #inner{
+    border: 2px dashed black;
+    padding: 16px 70px;
+    text-align: center;
+}
+#form input{
+    width:350px ;
+    padding: 10px;
+    margin: 10px 0px;
+}
+#form textarea{
+    width:352px;
+    padding: 10px;
+    margin: 10px 0px;
+    resize: none;
+}
+#form #loc{
+    width: 165px;
+}
+#form #type{
+    padding: 10px 5px;
+}
+#form label{
+    font-size: 18px;
+}
+#form #addbtn{
+    margin:30px 0px 50px 118px;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    background-color:rgb(44, 43, 43);
+}

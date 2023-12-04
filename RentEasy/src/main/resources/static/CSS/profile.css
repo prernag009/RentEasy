@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#detail_container{
+	margin: 50px 210px;
+}
+#listprop{
+	margin-left: 210px;
+}
+
+#list_container #prop_heading{
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 30px 0px;
+}
+#list_container #prop1{
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.27);
+    margin:20px 200px;
+    line-height: 35px;
+}
+#listimage{
+    height: 300px;
+    width:450px;
+    margin: 20px 0px 20px 0px;
+}
+#list_container #prop_details{
+	display: flex;
+    margin-top: 20px;
+}
+#list_container #prop_desc h1{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+#list_container #prop_details #left{
+	 margin: 0px 45px 0px 10px ; 
+    font-size:18px;
+}
+#list_container #prop_details #right{
+	 margin: 0px 10px 20px 60px ; 
+     font-size:18px;
+}
+#list_container #prop_details a{
+	text-decoration: none;
+	color: white;
+}
+#list_container #prop_details #conbtn{
+	float: right;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 13px 0px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+#list_container #prop_details #pp{
+	margin-top: 10px;
+}
+#list_container #prop_details #ownbtn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 30px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+#list_container #prop_details #editbtn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    background-color: rgb(0, 128, 192);
+    color: white;
+}
+#list_container #prop_details #delbtn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top:35px;
+    margin-right: 50px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#noprop{
+	margin: 30px 210px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.slider-container {
+    position: relative;
+    /* Other necessary styles */
+}
+
+.prevBtn,
+.nextBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+}
+
+.prevBtn {
+    left: -15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nextBtn {
+    right: -5px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
